@@ -1,0 +1,21 @@
+  - name: app setup
+    include_role:
+      name: common
+      tasks_from: app-setup.yaml
+      
+  - name: nodejs setup
+    include_role:
+      name: common
+      tasks_from: nodejs-setup.yaml
+
+  - name: create roboshop system user
+    ansible.builtin.user:
+      name: roboshop
+      shell: /sbin/nologin
+      system: true
+      home: /app
+
+  - name: systemd setup
+    include_role:
+      name: common
+      tasks_from: systemd-setup.yaml
