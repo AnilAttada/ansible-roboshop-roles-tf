@@ -1,5 +1,5 @@
-CATALOGUE_HOST: catalogue.anilkumar.shop
-USER_HOST: user.anilkumar.shop
-CART_HOST: cart.anilkumar.shop
-SHIPPING_HOST: shipping.anilkumar.shop
-PAYMENT_HOST: payment.anilkumar.shop
+CATALOGUE_HOST: catalogue.backend-{{ env }}.anilkumar.shop
+USER_HOST: user.backend-{{ env }}.anilkumar.shop
+CART_HOST: cart.backend-{{ env }}.anilkumar.shop
+SHIPPING_HOST: shipping.backend-{{ env }}.anilkumar.shop
+PAYMENT_HOST: payment.backend-{{ env }}.anilkumar.shop

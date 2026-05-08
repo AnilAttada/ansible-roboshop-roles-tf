@@ -1,2 +1,2 @@
-REDIS_HOST: redis.anilkumar.shop
-MONGODB_HOST: mongodb.anilkumar.shop
+REDIS_HOST: redis-{{ env }}.anilkumar.shop
+MONGODB_HOST: mongodb-{{ env }}.anilkumar.shop

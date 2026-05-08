@@ -1,5 +1,5 @@
-CART_HOST: cart.anilkumar.shop
-USER_HOST: user.anilkumar.shop
-RABBITMQ_HOST: rabbitmq.anilkumar.shop
+CART_HOST: cart.backend-{{ env }}.anilkumar.shop
+USER_HOST: user.backend-{{ env }}.anilkumar.shop
+RABBITMQ_HOST: rabbitmq-{{ env}}.anilkumar.shop
 RABBITMQ_USER: roboshop
 RABBITMQ_PASSWORD: roboshop123
